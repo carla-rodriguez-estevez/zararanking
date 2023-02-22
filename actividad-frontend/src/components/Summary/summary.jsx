@@ -22,7 +22,6 @@ export const Summary = () => {
 
   }, [])
 
-  console.log(summary)
 
 
   return (

@@ -3,6 +3,7 @@ import { Placeholder } from "./components/placeholder";
 import "./app.css";
 import { Filters } from "./components/Filters/filters";
 import { Summary } from "./components/Summary/summary";
+import { Ranking } from "./components/Ranking/ranking";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
           </div>
           <div className="ranking">
             {/* TODO: Ejercicio 5 - Crear el componente ranking  */}
-            <Placeholder />
+            <Ranking />
           </div>
         </div>
       </div>
